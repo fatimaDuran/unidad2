@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.events.EventsGesti">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eventos RadioReyna"
+        android:id="@+id/txv_tittle"
+        android:layout_centerHorizontal="true"
+        android:textSize="10pt"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/ev"
+        android:id="@+id/imv_ev"
+        android:layout_below="@id/txv_tittle"
+        android:layout_toRightOf="@id/imv_ev2"
+        android:layout_toEndOf="@id/imv_ev2" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/ev2"
+        android:id="@+id/imv_ev2"
+        android:layout_below="@id/txv_tittle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lugar:"
+        android:textSize="10pt"
+        android:id="@+id/txv_place"
+        android:layout_below="@id/imv_ev"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La mejor noche ven a distraerte un rato en Radio Reyna"
+        android:textSize="10pt"
+        android:id="@+id/txv_place_info"
+        android:layout_below="@id/txv_place"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="10pt"
+        android:id="@+id/txv_mas"
+        android:layout_below="@id/txv_place_info"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicio"
+        android:textSize="10pt"
+        android:id="@+id/txv_service"
+        android:layout_below="@id/txv_mas"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vevidas gratis y solo en  Radio Reyna"
+        android:textSize="10pt"
+        android:id="@+id/txv_service_info"
+        android:layout_below="@id/txv_service"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio"
+        android:textSize="10pt"
+        android:id="@+id/txv_price"
+        android:layout_below="@id/txv_service_info"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200"
+        android:textSize="10pt"
+        android:id="@+id/txv_price_info"
+        android:layout_below="@id/txv_service_info"
+        android:layout_toRightOf="@id/txv_price"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver mas"
+        android:textSize="10pt"
+        android:layout_below="@id/txv_price_info"
+        android:layout_toRightOf="@id/txv_price_info"
+        android:onClick="nextActivity"/>
+</RelativeLayout>

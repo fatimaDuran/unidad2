@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edt_age" type="id">age</item>
+    <item name="btn_sub" type="id">btn_sub</item>
+    <item name="txtData" type="id">txtData</item>
+</resources>
